@@ -1,3 +1,4 @@
+
 .main {
 	width:100%;
 	height:200px;
@@ -18,16 +19,18 @@
 	background-color:#DAE9BC;
 	width:100%;
 	}
-.div{
+.e{
     margin-top: 1px;
-    margin-right: 350px;
+    margin-right: 450px;
     margin-left: 350px;
     
     background-color: white;
 }
 .a{
-    margin-left: 390px;
+    margin-left: 350px;
     background-color:white;
 }
 .c{color:#003569;}
+
+
 
