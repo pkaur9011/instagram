@@ -47,7 +47,7 @@ var server = http.createServer(router);
 
 //establish connection to our mongodb instance
 //use your own mongodb instance here
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds157971.mlab.com:57971/gagan');
+mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds153667.mlab.com:53667/pkaur');
 
 /*sample code that creates a Post object
 var post = new Post({ 
