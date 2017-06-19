@@ -1,9 +1,12 @@
 <!doctype html>
 <html lang="en">
     <head>
+        
         <!-- our local copy of the jquery library. Normally, we'd use a CDN copy to use someone else's bandwidth -->
         <script src="js/jquery.min.js"></script>
-        <!-- I am including this script directly in the HTML, but usually this would be in its own file  -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+       
         <script>
             //handle a click on the LIKE button we've included with each post
             //we receive the ID of the post as a parameter
@@ -89,10 +92,32 @@
                 });
             }
         </script>
+        
+        <title>Instagram</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ .ex1 
+{
+    direction: rtl;
+}
+
+</style>
     </head>
     <!-- add the onload event handler to the body tag -->
     <body onload="onload();">
         <!-- create a div with an id to give us an anchor point to let the javascript do its work -->
         <div id="posts"></div>
+        
+         <main>
+<header>
+<img src="https://s3-eu-central-1.amazonaws.com/centaur-wp/creativereview/prod/content/uploads/2016/05/Instagram_Logo.jpg" style="width:50px; height:50px;margin-left:170px;">&emsp;
+<img src="http://tltesting.readthedocs.org/en/latest/_images/vertical.png" style="height:50px;width:1px;">&emsp;
+<img src="http://biblioteca.uva.es/export/sites/biblioteca/_imagenes/Instagram-nuevo-textojpg.jpg" style="width:110px;height:50px ;">
+<input type="text" name="search" placeholder="Search.." style="width:220px;height:20px;margin-left:200px;align:centre">
+<img src="https://cdn2.iconfinder.com/data/icons/instagram-ui/48/jee-73-128.png" style="width:50px;height:40px;margin-left:200px;">&nbsp;
+<img src="https://cdn2.iconfinder.com/data/icons/instagram-ui/48/jee-68-128.png" style="width:50px;height:40px;">&nbsp;
+<img src="https://cdn2.iconfinder.com/data/icons/instagram-ui/48/jee-74-128.png" style="width:50px;height:40px;">&nbsp;
+<hr>
     </body>
 </html>

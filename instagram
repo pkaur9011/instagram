@@ -1,0 +1,9 @@
+MongoDB shell version: 2.6.12
+connecting to:instagram
+Server has startup warnings: 
+2017-06-18T04:59:58.303+0000 ** WARNING: --rest is specified without --httpinterface,
+2017-06-18T04:59:58.303+0000 **          enabling http interface
+> [3G[Jmongo>db[11G[3G[Jinstagram[7G[3G[Jinstagram[7G
+2017-06-18T05:21:36.105+0000 ReferenceError: test is not defined
+> c[3G[Jc[4G^C
+bye

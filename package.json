@@ -1,13 +1,24 @@
 {
-  "name": "chat-example",
+  "name": "instagram",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "static page",
   "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
-  }
+    "async": "^0.2.10",
+    "express": "^3.21.2",
+    "mongodb": "^2.2.28",
+    "mongoose": "^4.10.6",
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "author": "CC",
+  "license": "ISC"
 }
