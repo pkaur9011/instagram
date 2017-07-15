@@ -1,31 +1,9 @@
 //
-// # SimpleServer
+// # SimplestServer
 //
-// A simple chat server using Socket.IO, Express, and Async.
-//
-//var http = require('http');
-//var path = require('path');
+// by Rick Kozak
 
-
-//var express = require('express');
-
-//
-// ## SimpleServer `SimpleServer(obj)`
-//
-// Creates a new instance of SimpleServer with the following options:
-//  * `port` - The HTTP port to listen on. If `process.env.PORT` is set, _it overrides this value_.
-//
-//var router = express();
-//var server = http.createServer(router);
-
-
-
-
-//server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
-  //var addr = server.address();
-  //console.log("Chat server listening at", addr.address + ":" + addr.port);
-//});
-
+//require statements -- this adds external modules from node_modules or our own defined modules
 
 var http = require('http');
 var path = require('path');
@@ -47,24 +25,11 @@ var server = http.createServer(router);
 
 //establish connection to our mongodb instance
 //use your own mongodb instance here
-mongoose.connect('mongodb://pritpalKaur:123456@ds131312.mlab.com:31312/instagram');
+mongoose.connect('mongodb://user123:1234@ds133932.mlab.com:33932/instagram');
 
-/*sample code that creates a Post object
-var post = new Post({ 
-  image: './img/glyphicons-halflings-white.png',
-  comment: 'cool glphicon',
-  likeCount: 0,
-  feedbackCount: 0
-});
-//and then saves it to the mongodb instance we connected to above
-post.save(function (err) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log('posted');
-  }
-});
-*/
+//sample code that creates a Post object
+
+
 
 //tell the router (ie. express) where to find static files
 router.use(express.static(path.resolve(__dirname, 'client')));
